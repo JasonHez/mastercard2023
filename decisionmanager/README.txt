@@ -1,3 +1,6 @@
+To build the project with maven:
+		mvn clean install
+
 To run the built .jar file as a Docker container:
 		docker build -t mcapp .
 		docker run -p 8080:8080 mcapp
